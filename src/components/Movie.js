@@ -12,7 +12,7 @@ const Movie = () => {
                 <input 
                 className="search" 
                 type="text" 
-                placeholder="Search" 
+                placeholder="Search..." 
                 onChange = {(event) => {
                     setSearchMovie(event.target.value);
                 }}

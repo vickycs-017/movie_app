@@ -78,8 +78,8 @@ header{
   font-size: 1.2rem;
   font-family: inherit;
   border: 2px solid #22254b;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   background-color: transparent;
-  /* color: #22254b; */
+  color: whitesmoke;
   padding: 0.5rem 1.5rem;
 }
