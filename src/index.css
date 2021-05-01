@@ -10,6 +10,8 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .movie-container{
@@ -63,4 +65,21 @@ body {
 
 .movie:hover .movie-over{
   transform: translateY(0%);
+}
+
+header{
+  background-color: #373b69;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search{
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: 2px solid #22254b;
+  border-radius: 50px;
+  background-color: transparent;
+  /* color: #22254b; */
+  padding: 0.5rem 1.5rem;
 }
